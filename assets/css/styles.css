@@ -644,3 +644,44 @@ a {
     font-size: 18px;
     font-weight: 600;
 }
+
+/* Footer */
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .column .title {
+    margin-bottom: 15px;
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .column li a {
+    display: inline-block;
+    padding: 10px 0;
+    color: #535353;
+}
+
+.footer .column .social {
+    display: flex;
+    align-items: center;
+}
+
+.footer .column .social .icon {
+    margin-right: 9px;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+    color: #B0B5B4;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
