@@ -34,6 +34,7 @@ a {
     border-radius: 14px;
     /* box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05); */
     background: var(--primary-color);
+    border: 1px solid transparent;
 }
 
 .btn:hover {
@@ -616,4 +617,30 @@ a {
     top: 374px;
     left: 1060px;
     background: #B1DFDC;
+}
+
+/* CTA */
+.cta {
+    background: #DEF6F5;
+    padding: 76px 0 88px;
+}
+
+.cta .main-content {
+    display: flex;
+    align-items: center;
+}
+
+.cta .left .desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+}
+
+.cta .cta-btn {
+    margin-left: 410px;
+    background: #2AC9BF;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
 }
