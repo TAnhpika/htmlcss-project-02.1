@@ -373,7 +373,7 @@ a {
 
 /* Courses */
 .courses {
-    margin-top: 130px 0 265px;
+    margin: 130px 0 265px;
 }
 
 .courses .desc-block {
@@ -471,4 +471,28 @@ a {
     margin-right: 10px;
     background: #1EBFC1;
     border-radius: 50%;
+}
+
+/* Countdown */
+.countdown {
+    padding-bottom: 264px;
+}
+.countdown .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.countdown .num {
+    margin-bottom: 11px;
+    color: #0D1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.countdown .desc {
+    color: #767E7E;
+    text-align: center;
+    font-size: 1.8rem;
 }
