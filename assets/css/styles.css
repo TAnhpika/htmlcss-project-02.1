@@ -329,13 +329,11 @@ a {
 }
 
 /* Features */
-.features {
-    /* width: 1024px; */
-}
-
 .features .features-top {
     width: 590px;
 }
+
+.courses .sub-heading,
 .features .features-top .sub-heading {
     margin-bottom: 18px;
     color: #767E7E;
@@ -343,6 +341,7 @@ a {
     font-weight: 700;
 } 
 
+.courses .desc-block .desc,
 .features .features-top .desc {
     margin-top: 18px;
     color: #767E7E;
@@ -370,4 +369,106 @@ a {
 .features .features-down .b-desc {
     color: #9DA6A5;
     line-height: 1.69;
+}
+
+/* Courses */
+.courses {
+    margin-top: 130px 0 265px;
+}
+
+.courses .desc-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .desc-block .desc {
+    width: 525px;
+    line-height: 1.78;
+}
+
+.courses .desc-block .view-all {
+    color: #1EBFC1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.courses .courses-img {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.6;
+}
+
+.courses .courses-items {
+    margin-top: 79px;
+    gap: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .courses-desc-block {
+    width: 325px;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+}
+
+.courses .wrap-img {
+    position: relative;
+}
+
+.courses .courses-desc-block {
+    position: absolute;
+    right: 17px;
+    left: 17px;
+    bottom: -70px;
+}
+
+.courses .courses-desc-block .price {
+    margin: 16px 0 6px;
+    color: #767E7E;
+    font-size: 1.6rem;
+}
+
+.courses .courses-desc-block strong {
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses .courses-desc-block .detail,
+.courses .courses-desc-block .desc {
+    margin-bottom: 18px;
+    color: #9DA6A5;
+    font-size: 14px;
+}
+
+.courses .courses-desc-block .detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.courses .detail .months::before,
+.courses .detail .classes::before {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+    background: #1EBFC1;
+    border-radius: 50%;
 }
