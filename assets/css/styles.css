@@ -51,6 +51,11 @@ a {
     line-height: 1.16;
 }
 
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
 .main-content {
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -321,4 +326,48 @@ a {
     justify-content: center;
     font-size: 1rem;
     font-weight: 500;
+}
+
+/* Features */
+.features {
+    /* width: 1024px; */
+}
+
+.features .features-top {
+    width: 590px;
+}
+.features .features-top .sub-heading {
+    margin-bottom: 18px;
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700;
+} 
+
+.features .features-top .desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+}
+
+.features .features-down {
+    width: 1024px;
+    gap: 200px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.features .features-down .b-heading {
+    color: #0D1111;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 26px 0 16px;
+}
+
+
+.features .features-down .b-desc {
+    color: #9DA6A5;
+    line-height: 1.69;
 }
