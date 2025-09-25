@@ -36,10 +36,12 @@ a {
     background: var(--primary-color);
     border: 1px solid transparent;
 }
-
+.cta .cta-btn:hover ,
 .btn:hover {
-    opacity: 0.9;
     cursor: pointer;
+    color: var(--primary-color);
+    background: #fff;
+    border: 1px solid #1EBFC1;
 }
 
 .heading {
@@ -121,13 +123,24 @@ a {
     margin-left: 177px;
 }
 
+.header .sign-in-btn {
+    color: #494949;
+    padding: 17px 24px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
 .header .sign-up-btn {
-    margin-left: 24px;
     min-width: 108px;
     border-radius: 6px;
     font-weight: 600;
 }
 
+.header .sign-in-btn:hover {
+    text-shadow: 1px 0 0 #1EBFC1;
+}
+
+.header .sign-in-btn:hover,
 .header .sign-up-btn:hover {
     color: var(--primary-color);
     background: #fff;
@@ -666,6 +679,10 @@ a {
     display: inline-block;
     padding: 10px 0;
     color: #535353;
+}
+
+.footer .column li:hover a {
+    text-decoration: underline;
 }
 
 .footer .column .social {
