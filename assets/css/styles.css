@@ -25,6 +25,7 @@ a {
     text-decoration: none;
 }
 
+
 .btn {
     display: inline-block;
     min-width: 186px;
@@ -32,16 +33,13 @@ a {
     color: #fff;
     text-align: center;
     border-radius: 14px;
-    /* box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05); */
     background: var(--primary-color);
     border: 1px solid transparent;
 }
-.cta .cta-btn:hover ,
+
 .btn:hover {
+    opacity: 0.9;
     cursor: pointer;
-    color: var(--primary-color);
-    background: #fff;
-    border: 1px solid #1EBFC1;
 }
 
 .heading {
@@ -85,6 +83,7 @@ a {
 .header {
     background: #fff;
 }
+
 .header.fixed {
     position: sticky;
     top: -28px;
@@ -94,12 +93,12 @@ a {
 .header .body {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     padding: 52px 0 28px;
 }
 
 .nav {
-    margin-left: auto;
+    margin-left: 200px;
+    margin-right: auto;
 }
 
 .nav ul {
@@ -117,34 +116,32 @@ a {
 .nav li.active a {
     /* font-weight: 600; */
     text-shadow: 1px 0 0 #2F3A3B;
-}
-
-.header .action {
-    margin-left: 177px;
+    text-decoration: underline;
 }
 
 .header .sign-in-btn {
+    margin-right: 24px;
     color: #494949;
-    padding: 17px 24px;
-    border: 1px solid transparent;
-    border-radius: 6px;
 }
 
 .header .sign-up-btn {
     min-width: 108px;
+    padding: 16px 24px;
     border-radius: 6px;
     font-weight: 600;
+    box-sizing: border-box;
+    color: var(--primary-color);
+    background: #fff;
+    border: 1px solid currentColor;
 }
 
 .header .sign-in-btn:hover {
-    text-shadow: 1px 0 0 #1EBFC1;
+    text-decoration: underline;
 }
 
-.header .sign-in-btn:hover,
 .header .sign-up-btn:hover {
-    color: var(--primary-color);
-    background: #fff;
-    border: 1px solid #1EBFC1;
+    color:  #fff;
+    background: var(--primary-color);
 }
 
 /* Hero */
@@ -221,7 +218,7 @@ a {
     display: block;
 }
 
-.hero .media-block .courses {
+.hero .media-block .course {
     position: absolute;
     top: 149px;
     left: -40px;
@@ -236,11 +233,11 @@ a {
     box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
 }
 
-.hero .courses-icon {
+.hero .course-icon {
     position: relative;
 }
 
-.hero .courses-icon .book-2 {
+.hero .course-icon .book-2 {
     position: absolute;
     bottom: 8px;
     right: 4px;
@@ -360,6 +357,7 @@ a {
     margin-top: 18px;
     color: #767E7E;
     font-size: 1.8rem;
+    line-height: normal;
 }
 
 .features .features-down {
@@ -402,8 +400,12 @@ a {
 }
 
 .courses .desc-block .view-all {
-    color: #1EBFC1;
     font-size: 1.4rem;
+    color: #9DA6A5;
+    font-weight: 600;
+}
+.courses .desc-block .view-all:hover {
+    color: #1EBFC1;
     font-weight: 700;
     text-decoration-line: underline;
     text-decoration-style: solid;
@@ -561,16 +563,16 @@ a {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: var(--primary-color);
-    color: #fff;
-    border: none;
+    background: #fff;
+    color: var(--primary-color);
+    border: 1px solid currentColor;
     stroke-width: 2px;
 }
 
 .comments-left .control-btn:hover {
-    background: transparent;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
     cursor: pointer;
 }
 
@@ -665,7 +667,7 @@ a {
 
 .footer .row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .footer .column .title {
