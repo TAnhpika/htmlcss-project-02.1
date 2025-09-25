@@ -201,9 +201,14 @@ a {
     width: 62px;
     height: 62px;
     border-radius: 50%;
-    box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.1);;
+    box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
 }
 
+.hero .watch-video .icon:hover {
+    opacity: 1;
+    box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.2);;
+}
 /* Hero right */
 .hero .media-block {
     position: relative;
