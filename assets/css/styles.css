@@ -57,6 +57,10 @@ a {
     line-height: 1.33;
 }
 
+.heading.lv3 {
+    font-size: 2.2rem;
+}
+
 .main-content {
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -116,7 +120,6 @@ a {
 .nav li.active a {
     /* font-weight: 600; */
     text-shadow: 1px 0 0 #2F3A3B;
-    text-decoration: underline;
 }
 
 .header .sign-in-btn {
@@ -205,6 +208,11 @@ a {
     opacity: 0.8;
 }
 
+.hero .watch-video .icon img {
+    width: 14px;
+    height: 18px;
+}
+
 .hero .watch-video .icon:hover {
     opacity: 1;
     box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.2);;
@@ -250,6 +258,10 @@ a {
 
 .hero .media-block span {
     max-width: 55px;
+    color: #0D1111;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .hero .schedules {
@@ -390,7 +402,7 @@ a {
 
 /* Courses */
 .courses {
-    margin: 130px 0 265px;
+    margin-top: 130px;
 }
 
 .courses .desc-block {
@@ -456,7 +468,7 @@ a {
 }
 
 .courses .courses-desc-block .price {
-    margin: 16px 0 6px;
+    margin: 16px 0 10px;
     color: #767E7E;
     font-size: 1.6rem;
 }
@@ -496,7 +508,7 @@ a {
 
 /* Countdown */
 .countdown {
-    padding-bottom: 227px;
+    margin: 389px 0 265px;
 }
 .countdown .main-content {
     display: flex;
